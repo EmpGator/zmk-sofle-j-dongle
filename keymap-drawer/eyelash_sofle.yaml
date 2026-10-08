@@ -86,12 +86,12 @@ layers:
   - R
   - T
   - $$mdi:arrow-down-bold$$
+  - Y
   - U
   - I
   - O
   - P
   - {t: '[', s: '{'}
-  - {t: ']', s: '}'}
   - $$mdi:apple-keyboard-shift$$
   - A
   - S
@@ -151,10 +151,10 @@ layers:
   - $$mdi:mouse-right-click-outline$$
   - '&mkp MB4'
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
+  - RGB BRD
   - PG UP
-  - END
   - $$mdi:arrow-up-bold$$
-  - HOME
+  - PG DN
   - F11
   - F12
   - {t: '$$mdi:transfer$$', type: trans}
@@ -164,7 +164,7 @@ layers:
   - $$mdi:apple-keyboard-command$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
-  - PG DN
+  - HOME
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
@@ -178,7 +178,7 @@ layers:
   - RGB SPI
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - RGB BRI
-  - RGB BRD
+  - END
   - Ins
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -202,7 +202,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:volume-high$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -215,7 +215,7 @@ layers:
   - <
   - '>'
   - '|'
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:volume-low$$
   - '#'
   - '{'
   - '}'
@@ -228,7 +228,7 @@ layers:
   - {t: ']', s: '}'}
   - {t: '=', s: +}
   - $
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:skip-previous$$
   - ^
   - (
   - )
@@ -241,7 +241,7 @@ layers:
   - '*'
   - {t: /, s: '?'}
   - '%'
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:skip-next$$
   - '@'
   - {t: ;, s: ':'}
   - {t: '''', s: '"'}
@@ -254,7 +254,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:play-pause$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
