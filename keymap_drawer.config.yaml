@@ -117,6 +117,10 @@ parse_config:
     type: trans
 
   raw_binding_map:
+    # gatorkeys layer-signal macros (see config/eyelash_sofle.keymap)
+    "&mo_nav": Nav
+    "&mo_sym": Sym
+    "&tog_qwerty": Qwerty
     # Layers
     "&ltq 1 BACKSPACE":
       tap:  $$mdi:backspace$$
